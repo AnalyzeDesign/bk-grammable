@@ -76,3 +76,5 @@ gem 'popper_js', '~> 1.14'
 gem 'bootstrap', '~> 4.3.1'
 
 gem 'simple_form'
+
+gem 'devise'
