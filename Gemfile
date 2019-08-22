@@ -64,3 +64,15 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
 end
+
+# ----------
+# install all this for bootstrap 4 to work:
+# ----------
+# Bootstrap installer says sprockets-rails required
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+# Add jQuery
+gem 'jquery-rails'
+gem 'popper_js', '~> 1.14'
+gem 'bootstrap', '~> 4.3.1'
+
+gem 'simple_form'
